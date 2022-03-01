@@ -1,0 +1,21 @@
+* C:\Users\JetN Amplify\OneDrive - Duke University\Documents\GitHub\LEDpulser4.asc
+V1 N001 0 12
+V2 N003 0 PULSE(0 10 .2u 20n 20n 1.3u 3u)
+M1 N002 N003 N004 N004 NMOS
+R1 N002 N001 1.2k
+M2 N006 N007 0 0 NMOS
+V3 N007 0 PULSE(0 10 1.6u 20n 20n .5u 3u)
+M3 0 N008 N009 N009 NMOS
+R2 0 N009 50
+V4 N008 0 PULSE(0 10 2.2u 20n 20n .5u 3u)
+D1 N005 N006 D
+C1 0 N005 .1n
+R3 N005 N004 100
+.model D D
+.lib C:\Users\JetN Amplify\OneDrive - Duke University\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\JetN Amplify\OneDrive - Duke University\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 30u
+.backanno
+.end

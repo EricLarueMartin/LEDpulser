@@ -1,0 +1,23 @@
+* C:\Users\JetN Amplify\OneDrive - Duke University\Documents\GitHub\LEDpulser.asc
+O1 N006 0 N007 N008 RG58
+D1 N007 N008 NSPW500BS
+V1 N001 0 12
+V2 N003 0 PULSE(0 12 0 20n 20n 1u 1m) Rser=1.6
+V3 N005 0 PULSE(0 12 1050n 20n 20n 150n 1m) Rser=1.6
+C1 0 N004 2.7nF V=630 Irms=0 Rser=0 Lser=0 mfg="Murata" pn="GCM31A5C2J271JX01" type="C0G"
+M2 N004 N005 N006 N006 BSC052N03LS
+R1 N001 N002 1.6k
+M1 N002 N003 N004 N004 Si9803DY
+M3 N006 N009 P001 P001 BSC052N03LS
+R2 P001 0 50
+V4 N009 0 PULSE(0 12 1300n 20n 20n 150n 1m) Rser=1.6
+.model D D
+.lib C:\Users\JetN Amplify\OneDrive - Duke University\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\JetN Amplify\OneDrive - Duke University\Documents\LTspiceXVII\lib\cmp\standard.mos
+.model RG58 LTRA(len=3 R=32.81m L=262.5n C=93.5p)
+.tran 0 1500n 0s
+* LED
+.backanno
+.end
