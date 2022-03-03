@@ -1,0 +1,24 @@
+Circuit: * C:\Users\JetN Amplify\OneDrive - Duke University\Documents\GitHub\LEDpulser4_RG58_external timer.asc
+
+rg58: using linear interpolation because trytocompact option specified
+WARNING: Node N006 is floating.
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Mar 02 15:04:12 2022
+Total elapsed time: 0.191 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2302
+traniter = 2277
+tranpoints = 1139
+accept = 1116
+rejected = 23
+matrix size = 17
+fillins = 8
+solver = Normal
+Matrix Compiler1: 1.21 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: 1.43 KB object code size  0.2/0.2/[0.2]
+

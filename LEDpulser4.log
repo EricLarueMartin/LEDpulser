@@ -2,20 +2,20 @@ Circuit: * C:\Users\JetN Amplify\OneDrive - Duke University\Documents\GitHub\LED
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Tue Mar 01 15:30:03 2022
-Total elapsed time: 0.227 seconds.
+Date: Wed Mar 02 15:06:12 2022
+Total elapsed time: 0.126 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 5858
-traniter = 5835
-tranpoints = 2352
-accept = 2050
-rejected = 302
+totiter = 2386
+traniter = 2361
+tranpoints = 1137
+accept = 1116
+rejected = 21
 matrix size = 13
 fillins = 0
 solver = Normal
-Matrix Compiler1: 424 bytes object code size  0.1/0.8/[0.1]
-Matrix Compiler2: 845 bytes object code size  0.1/0.2/[0.1]
+Matrix Compiler1: 442 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.2
 
