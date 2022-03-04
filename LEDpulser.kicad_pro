@@ -365,7 +365,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "specctra_dsn": "LEDpulser.dsn",
       "step": "",
       "vrml": ""
