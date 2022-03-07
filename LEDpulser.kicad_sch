@@ -1813,9 +1813,6 @@
   (junction (at 278.13 119.38) (diameter 0) (color 0 0 0 0)
     (uuid 8ad14775-c363-421c-a8b1-1611dd8bf21d)
   )
-  (junction (at 102.235 19.685) (diameter 0) (color 0 0 0 0)
-    (uuid 937bf09c-6cf4-491e-b271-43caffdc863d)
-  )
   (junction (at 139.065 97.79) (diameter 0) (color 0 0 0 0)
     (uuid 971e2957-6bd1-4eb1-8988-25c972719a99)
   )
@@ -2608,11 +2605,6 @@
     (pin "1" (uuid c694523f-c1db-4053-906d-d51e398e6ca5))
   )
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  (symbol (lib_id "power:GND") (at 121.92 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes)
-=======
   (symbol (lib_id "power:GND") (at 261.62 203.2 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 09ddb4b9-5401-49a4-8740-3db8409eec31)
@@ -2631,22 +2623,14 @@
     (pin "1" (uuid f2bde23f-3891-45ba-b1c1-5674ee733c52))
   )
 
-=======
->>>>>>> parent of 5c4516c (Fixed open connection, grounded unused inputs, adjusted connector facing.)
   (symbol (lib_id "power:GND") (at 109.855 27.305 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
->>>>>>> 5c4516cbc75145b25915ce3b70d8ea61b5ad7dbc
     (uuid 0abcd227-34f7-423e-a6cd-5e646c1a3197)
     (property "Reference" "#PWR0111" (id 0) (at 109.855 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-<<<<<<< HEAD
     (property "Value" "GND" (id 1) (at 121.92 57.15 0))
     (property "Footprint" "" (id 2) (at 121.92 53.34 0)
-=======
-    (property "Value" "GND" (id 1) (at 109.855 31.8675 0))
-    (property "Footprint" "" (id 2) (at 109.855 27.305 0)
->>>>>>> 5c4516cbc75145b25915ce3b70d8ea61b5ad7dbc
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 109.855 27.305 0)
@@ -4584,39 +4568,13 @@
     (pin "4" (uuid 58f60691-8b79-42ad-804c-71e659de30c0))
   )
 
-<<<<<<< HEAD
   (symbol (lib_id "4xxx:4023") (at 114.3 58.42 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid c27b33d9-bd4a-47f1-a923-cdead9ee2a32)
-    (property "Reference" "U?" (id 0) (at 111.76 57.15 0)
+    (property "Reference" "U4" (id 0) (at 111.76 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4023" (id 1) (at 111.76 59.69 0)
-=======
-  (symbol (lib_id "power:+6V") (at 160.02 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid bf01fecb-96ef-40fb-aea3-80e8e55145f7)
-    (property "Reference" "#PWR0173" (id 0) (at 160.02 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+6V" (id 1) (at 160.02 21.59 0))
-    (property "Footprint" "" (id 2) (at 160.02 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 160.02 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a4966edb-ec61-4bb0-a896-03470680f19e))
-  )
-
-  (symbol (lib_id "4xxx:4023") (at 102.235 32.385 0) (unit 4)
-    (in_bom yes) (on_board yes)
-    (uuid c27b33d9-bd4a-47f1-a923-cdead9ee2a32)
-    (property "Reference" "U4" (id 0) (at 100.33 31.115 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "74HC10" (id 1) (at 99.695 33.02 0)
->>>>>>> 5c4516cbc75145b25915ce3b70d8ea61b5ad7dbc
+    (property "Value" "74HC10" (id 1) (at 111.76 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" (id 2) (at 102.235 32.385 0)
@@ -5377,9 +5335,6 @@
     (path "/9c4f1d32-a853-4075-b877-6695d134960b"
       (reference "#PWR0172") (unit 1) (value "GND") (footprint "")
     )
-    (path "/bf01fecb-96ef-40fb-aea3-80e8e55145f7"
-      (reference "#PWR0173") (unit 1) (value "+6V") (footprint "")
-    )
     (path "/4fa42070-f17f-4596-be2c-1e3f464ee039"
       (reference "#PWR0174") (unit 1) (value "GND") (footprint "")
     )
@@ -5388,6 +5343,9 @@
     )
     (path "/e140d972-8c51-44df-b54e-1eb87bcb55d0"
       (reference "#PWR0176") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/09ddb4b9-5401-49a4-8740-3db8409eec31"
+      (reference "#PWR0178") (unit 1) (value "GND") (footprint "")
     )
     (path "/f93b1b9a-0026-469f-bb79-98b3a8c675dd"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
