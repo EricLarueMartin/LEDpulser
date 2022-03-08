@@ -1,0 +1,30 @@
+Circuit: * C:\Users\JetN Amplify\OneDrive - Duke University\Documents\LEDpulser\LEDpulser4_CAT8_NEW.asc
+
+cat8: using linear interpolation because trytocompact option specified
+WARNING: Node N006 is floating.
+
+Direct Newton iteration for .op point succeeded.
+.step dev=0.5
+.step dev=1
+.step dev=1.5
+.step dev=2
+.step dev=2.5
+.step dev=3
+
+Date: Tue Mar 08 15:44:54 2022
+Total elapsed time: 0.607 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3833
+traniter = 3808
+tranpoints = 1173
+accept = 1141
+rejected = 32
+matrix size = 18
+fillins = 9
+solver = Normal
+Matrix Compiler1:      73 opcodes  0.3/0.1/[0.1]
+Matrix Compiler2: 1.51 KB object code size  0.2/0.2/[0.1]
+

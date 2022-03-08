@@ -1,24 +1,24 @@
-Circuit: * C:\Users\JetN Amplify\OneDrive - Duke University\Documents\GitHub\LEDpulser4_with_RG58.asc
+Circuit: * C:\Users\JetN Amplify\OneDrive - Duke University\Documents\LEDpulser\LEDpulser4_with_RG58.asc
 
 rg58: using linear interpolation because trytocompact option specified
 WARNING: Node N006 is floating.
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Thu Mar 03 13:10:28 2022
-Total elapsed time: 0.215 seconds.
+Date: Tue Mar 08 15:36:58 2022
+Total elapsed time: 0.207 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3852
-traniter = 3827
-tranpoints = 1173
-accept = 1141
-rejected = 32
-matrix size = 17
-fillins = 11
+totiter = 3758
+traniter = 3732
+tranpoints = 1158
+accept = 1129
+rejected = 29
+matrix size = 18
+fillins = 9
 solver = Normal
-Matrix Compiler1: 1.44 KB object code size  0.3/0.3/[0.1]
-Matrix Compiler2: 1.47 KB object code size  0.2/0.3/[0.1]
+Matrix Compiler1:      73 opcodes  0.3/[0.2]/1.8
+Matrix Compiler2: 1.51 KB object code size  0.2/0.2/[0.2]
 

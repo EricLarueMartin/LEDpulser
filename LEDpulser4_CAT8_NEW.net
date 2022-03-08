@@ -1,4 +1,4 @@
-* C:\Users\JetN Amplify\OneDrive - Duke University\Documents\GitHub\LEDpulser4_CAT8.asc
+* C:\Users\JetN Amplify\OneDrive - Duke University\Documents\LEDpulser\LEDpulser4_CAT8_NEW.asc
 V1 N001 0 12
 V2 N003 0 PULSE(0 12 0 20n 20n 1u 1.6u 5)
 M1 N002 N003 N005 N005 NMOS
@@ -8,9 +8,9 @@ V3 N011 0 PULSE(0 12 1.05u 20n 20n 150n 1.6u 5)
 M3 N005 N010 N004 N004 NMOS
 R2 0 N004 50
 V4 N010 0 PULSE(0 12 1.3u 20n 20n 150n 1.6u 5)
-D1 N007 N009 D
+D1 N007 N009 QTLP690C
 C1 0 N007 .1n
-R3 N007 N006 100
+R3 N007 N006 50
 O1 N005 N008 N006 N009 CAT8
 .model D D
 .lib C:\Users\JetN Amplify\OneDrive - Duke University\Documents\LTspiceXVII\lib\cmp\standard.dio
@@ -18,6 +18,8 @@ O1 N005 N008 N006 N009 CAT8
 .model PMOS PMOS
 .lib C:\Users\JetN Amplify\OneDrive - Duke University\Documents\LTspiceXVII\lib\cmp\standard.mos
 .tran 0 2u 1u
-.model CAT8 LTRA(len = 3 R=67.9m L=560n C=56p)
+.model CAT8 LTRA(len = {DEV} R=67.9m L=560n C=56p)
+.step param DEV .5 3 .5
+;.param DEV
 .backanno
 .end
