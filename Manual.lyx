@@ -102,7 +102,34 @@ begin{tikztimingtable}
 
 \begin_layout Plain Layout
 
-Input signal                        & 2L 38H 
+Input signal                        & 1L 38H 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+Sync Delay						  & 2L 2H 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Sync								& 4L 10H 
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+LED Delay                           & 3L 10H 28L 
 \backslash
 
 \backslash
@@ -111,25 +138,7 @@ Input signal                        & 2L 38H
 
 \begin_layout Plain Layout
 
-LED On Delay                        & 2L 10H 28L 
-\backslash
-
-\backslash
-   
-\end_layout
-
-\begin_layout Plain Layout
-
-Capacitor Charge (high is off)      & 2L 36H 2L 
-\backslash
-
-\backslash
-   
-\end_layout
-
-\begin_layout Plain Layout
-
-LED On (high is on)                 & 12L 10H 18L 
+LED On				              & 14L 10H 18L 
 \backslash
 
 \backslash
@@ -147,7 +156,16 @@ LED Short Delay                     & 2H 22L 16H
 
 \begin_layout Plain Layout
 
-LED Short (high is short)           & 24L 10H 6L 
+LED Short 				          & 24L 10H 6L 
+\backslash
+
+\backslash
+   
+\end_layout
+
+\begin_layout Plain Layout
+
+Capacitor Charge 			       & 4L 36H 2L 
 \backslash
 
 \backslash
