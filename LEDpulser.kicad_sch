@@ -2195,13 +2195,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 7fed6727-faad-4a6b-933f-052401a5d338)
   )
-<<<<<<< HEAD
-  (wire (pts (xy 151.13 106.68) (xy 151.13 102.87))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 820fa63c-b898-4e51-a953-7bfe3ca07fd4)
-  )
-=======
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (wire (pts (xy 133.35 118.11) (xy 160.655 118.11))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 83125939-1a71-45c1-99ae-6b573462ac8b)
@@ -2374,13 +2367,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c023365f-5d55-49b2-8cf1-6eab56a1e105)
   )
-<<<<<<< HEAD
-  (wire (pts (xy 264.16 99.695) (xy 264.16 100.33))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c718532b-cf5f-40f0-be56-d20753a011e6)
-  )
-=======
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (wire (pts (xy 161.29 151.13) (xy 139.065 151.13))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cb8fce57-9f1e-428d-9dee-9f59fa8c07c6)
@@ -2433,13 +2419,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid dfaeefb5-dfa8-40e2-8a12-3da4c9e6ad20)
   )
-<<<<<<< HEAD
-  (wire (pts (xy 264.16 99.695) (xy 275.59 99.695))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e24dcad2-de23-4387-9b87-32e2578e4003)
-  )
-=======
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (wire (pts (xy 233.68 151.13) (xy 240.03 151.13))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e535216f-7403-4a8e-bece-b41109ec2224)
@@ -2685,8 +2664,6 @@
     (pin "2" (uuid 1ade6e24-3015-4727-a342-b1972b9cf778))
   )
 
-<<<<<<< HEAD
-=======
   (symbol (lib_id "power:GND") (at 306.07 198.755 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0ea301f1-e42e-425f-8aae-f44a4b42ce20)
@@ -2723,7 +2700,6 @@
     (pin "1" (uuid d6400bea-b5a2-48fa-9af9-7ef2f07473c1))
   )
 
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (symbol (lib_id "Device:R_Potentiometer") (at 147.32 102.87 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 10765088-2d1b-4213-a1e1-690ce7c6ab46)
@@ -3065,8 +3041,6 @@
     (pin "3" (uuid 3abb8595-a86a-4e18-95d4-bbaa21ab248c))
   )
 
-<<<<<<< HEAD
-=======
   (symbol (lib_id "power:GND") (at 261.62 200.66 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2e585716-2a7f-42a5-9c77-50a59257a0ce)
@@ -3085,7 +3059,6 @@
     (pin "1" (uuid bb01dc6b-c560-4ca6-917d-36307b0ae36d))
   )
 
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (symbol (lib_id "power:GND") (at 31.75 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2fb6b4ad-c420-427e-be69-70504aefadde)
@@ -3191,8 +3164,6 @@
     (pin "9" (uuid 650c057e-d24a-42d6-9bea-56535cff5c1d))
   )
 
-<<<<<<< HEAD
-=======
   (symbol (lib_id "power:GND") (at 306.07 193.675 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3c5c3cbf-d095-4aac-86ae-931d03cc4a5d)
@@ -3211,7 +3182,6 @@
     (pin "1" (uuid e892b99b-bb53-407b-991a-48de4346a2f6))
   )
 
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (symbol (lib_id "power:GND") (at 36.83 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3d49e3b0-f12c-4161-ba40-e2f415aa440e)
@@ -3248,8 +3218,6 @@
     (pin "4" (uuid ed64d958-d73c-4f9c-b75d-3ab997e44c74))
   )
 
-<<<<<<< HEAD
-=======
   (symbol (lib_id "power:GND") (at 306.07 196.215 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3e65fe98-14e0-4855-831d-8007c0446306)
@@ -3268,7 +3236,6 @@
     (pin "1" (uuid 02a475e2-7204-4f05-a45e-b55da0c94c03))
   )
 
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (symbol (lib_id "Device:C") (at 160.02 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3ef777ac-43bf-432c-a087-613f684e9f25)
@@ -3686,8 +3653,6 @@
     (pin "4" (uuid ec7073f7-f754-4ee6-a977-3d11d16480f8))
   )
 
-<<<<<<< HEAD
-=======
   (symbol (lib_id "74xx:74HC123") (at 274.32 198.12 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5c0c1451-5a39-4ef8-acf5-b7af952b357c)
@@ -3708,7 +3673,6 @@
     (pin "9" (uuid 9b002dfd-89a6-420e-9bb6-07a3afa3b5ea))
   )
 
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (symbol (lib_id "power:GND") (at 264.16 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5cf6d8d4-c039-4e63-85f3-6997ca78334f)
@@ -3813,8 +3777,6 @@
     (pin "3" (uuid 1e18d4b4-d082-45b4-98f1-4c10d2a9653e))
   )
 
-<<<<<<< HEAD
-=======
   (symbol (lib_id "power:GND") (at 306.07 210.185 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 660a9542-58a4-4396-9118-5a4e1bc56bbc)
@@ -3833,7 +3795,6 @@
     (pin "1" (uuid 89551b28-284f-4d12-940d-40d64f950f82))
   )
 
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (symbol (lib_id "power:GND") (at 55.245 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 66a40a5e-cbde-4dae-860d-ac45c80697c0)
@@ -3886,8 +3847,6 @@
     (pin "1" (uuid b4795d28-0080-4dec-8d93-36f73a2f663a))
   )
 
-<<<<<<< HEAD
-=======
   (symbol (lib_id "power:GND") (at 274.32 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6bc00599-0e61-434b-9132-bb199a859ad9)
@@ -3906,7 +3865,6 @@
     (pin "1" (uuid 5977da62-94b4-4b88-a100-606e2f0fc986))
   )
 
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (symbol (lib_id "Device:C") (at 155.575 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6cef2e04-a085-444b-bd2b-de4ab17db55a)
@@ -5101,8 +5059,6 @@
     (pin "1" (uuid 4977217b-64fd-4670-abb8-fe53781e0959))
   )
 
-<<<<<<< HEAD
-=======
   (symbol (lib_id "4xxx:4023") (at 313.69 212.725 0) (unit 3)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e62c8e1b-8b7d-4d33-a3b1-df22469f277f)
@@ -5138,7 +5094,6 @@
     (pin "1" (uuid 34b82398-cd7f-4c4a-8e9a-6b225129fda6))
   )
 
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
   (symbol (lib_id "power:GND") (at 160.655 115.57 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ed2d823f-a204-4126-a873-f8a4cf43b17b)
@@ -5558,10 +5513,6 @@
     (path "/e140d972-8c51-44df-b54e-1eb87bcb55d0"
       (reference "#PWR0176") (unit 1) (value "GND") (footprint "")
     )
-<<<<<<< HEAD
-    (path "/09ddb4b9-5401-49a4-8740-3db8409eec31"
-      (reference "#PWR0178") (unit 1) (value "GND") (footprint "")
-=======
     (path "/2e585716-2a7f-42a5-9c77-50a59257a0ce"
       (reference "#PWR0177") (unit 1) (value "GND") (footprint "")
     )
@@ -5588,7 +5539,6 @@
     )
     (path "/0f7c6dc2-b075-4872-968b-edc44ecaaa82"
       (reference "#PWR0185") (unit 1) (value "GND") (footprint "")
->>>>>>> parent of aedaf4b (Changed switch, added sync pulse monostable, rerouted.)
     )
     (path "/f93b1b9a-0026-469f-bb79-98b3a8c675dd"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
