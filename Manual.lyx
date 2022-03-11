@@ -90,6 +90,12 @@ Timing
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset ERT
 status open
 
@@ -102,7 +108,7 @@ begin{tikztimingtable}
 
 \begin_layout Plain Layout
 
-Input signal                        & 1L 38H 
+Input                               & 0.5L 36H 
 \backslash
 
 \backslash
@@ -111,7 +117,7 @@ Input signal                        & 1L 38H
 
 \begin_layout Plain Layout
 
-Sync Delay						  & 2L 2H 
+Sync Delay						  & 1L 3H 32.5L
 \backslash
 
 \backslash
@@ -120,7 +126,7 @@ Sync Delay						  & 2L 2H
 
 \begin_layout Plain Layout
 
-Sync								& 4L 10H 
+Sync								& 4.5L 30H 2L
 \backslash
 
 \backslash
@@ -129,7 +135,7 @@ Sync								& 4L 10H
 
 \begin_layout Plain Layout
 
-LED Delay                           & 3L 10H 28L 
+LED Delay                           & 1.5L 3H 32L 
 \backslash
 
 \backslash
@@ -138,7 +144,7 @@ LED Delay                           & 3L 10H 28L
 
 \begin_layout Plain Layout
 
-LED On				              & 14L 10H 18L 
+LED On				              & 5L 20H 11.5L 
 \backslash
 
 \backslash
@@ -147,7 +153,7 @@ LED On				              & 14L 10H 18L
 
 \begin_layout Plain Layout
 
-LED Short Delay                     & 2H 22L 16H 
+LED Short Delay                     & 5L 20H 11.5L 
 \backslash
 
 \backslash
@@ -156,7 +162,7 @@ LED Short Delay                     & 2H 22L 16H
 
 \begin_layout Plain Layout
 
-LED Short 				          & 24L 10H 6L 
+LED Short 				          & 25.5L 10H 1L 
 \backslash
 
 \backslash
@@ -165,7 +171,7 @@ LED Short 				          & 24L 10H 6L
 
 \begin_layout Plain Layout
 
-Capacitor Charge 			       & 4L 36H 2L 
+Capacitor Charge         	       & 1H 35L 0.5H 
 \backslash
 
 \backslash
@@ -177,6 +183,23 @@ Capacitor Charge 			       & 4L 36H 2L
 
 \backslash
 end{tikztimingtable}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Signal Timing
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
