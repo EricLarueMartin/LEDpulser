@@ -4053,7 +4053,7 @@
     (property "Reference" "R4" (id 0) (at 377.19 93.345 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "50" (id 1) (at 374.65 92.075 90))
+    (property "Value" "0" (id 1) (at 374.65 92.075 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 376.428 92.075 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5323,7 +5323,7 @@
     (property "Reference" "RV1" (id 0) (at 247.015 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2Meg" (id 1) (at 248.92 62.865 90))
+    (property "Value" "100k" (id 1) (at 248.92 62.865 90))
     (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266X_Horizontal" (id 2) (at 248.92 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6148,7 +6148,7 @@
       (reference "R3") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/71b49a57-4df0-45e4-b6d3-2ded9723958b"
-      (reference "R4") (unit 1) (value "50") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R4") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/108ebf47-c687-4a07-92ce-253866903f37"
       (reference "R5") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -6217,7 +6217,7 @@
       (reference "R26") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/dac9bdf9-8143-436a-9f76-17c124fa3cd8"
-      (reference "RV1") (unit 1) (value "2Meg") (footprint "Potentiometer_THT:Potentiometer_Bourns_3266X_Horizontal")
+      (reference "RV1") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3266X_Horizontal")
     )
     (path "/ee34309b-73a3-464c-a6d2-cc3bde3498d4"
       (reference "RV2") (unit 1) (value "2k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical")
