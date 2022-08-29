@@ -508,7 +508,11 @@
     (property "Sheetname" "")
     (path "/6b4bd903-61c5-441a-a9e7-2439d343e37d")
     (attr smd)
+<<<<<<< HEAD
     (fp_text reference "C2" (at 0 -1.2192) (layer "F.SilkS")
+=======
+    (fp_text reference "C2" (at 2.3368 0.0508) (layer "F.SilkS")
+>>>>>>> 0198203143e57e48ab2d2e85bd6922f14b943e28
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 33e14999-b5ae-46d2-ac28-01787a512419)
     )
